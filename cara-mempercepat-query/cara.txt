@@ -1,0 +1,10 @@
+Berikut beberapa cara untu mempercepat query
+1. pastika desain database yang ada tidak terlalu normal (terlalu menormalisasi data)
+
+Normalisasi data dapat membuat query menjadi lebih kompleks dan proses pengambilan data menjadi semakin lama dan berat, hal ini disebabkan karena data saling terhubung
+
+2. pastikan tidak ada problem N + 1
+N + 1 menyebabkan proses pengambilan data yang seharusnya dapat dilakukan dalam satu query, menjadi total jumlah data + 1. jika data yang ada besar, hal ini akan menjadi masalah
+
+3. Kapasitas server
+kapasitar dan spesifikasi server juga berperan dalam seberapa cepat query
